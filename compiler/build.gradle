@@ -15,7 +15,7 @@ dependencies {
 publish {
     artifactId = 'compiler'
     groupId = rootProject.groupId
-    uploadName = rootProject.uploadName
+    uploadName = 'annotatedparseobject-compiler'
     publishVersion = rootProject.publishVersion
     description = rootProject.description
     website = rootProject.website

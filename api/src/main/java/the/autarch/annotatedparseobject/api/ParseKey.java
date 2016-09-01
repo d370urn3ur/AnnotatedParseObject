@@ -1,4 +1,4 @@
-package com.myluckyday.android.test.api;
+package the.autarch.annotatedparseobject.api;
 
 /**
  * Created by jpierce on 31/08/16.

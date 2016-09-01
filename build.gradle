@@ -22,8 +22,7 @@ task clean(type: Delete) {
 
 ext {
     groupId = 'the.autarch.annotatedparseobject'
-    uploadName = 'annotatedparseobject'
-    publishVersion = '0.1'
+    publishVersion = '0.2'
     description = 'Annotation processor that generates ParseObject subclasses from schema objects'
     website = 'https://github.com/d370urn3ur/AnnotatedParseObject'
     licences = ['Unlicense']

@@ -5,8 +5,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.myluckyday.android.test.annop.Article;
-import com.myluckyday.android.test.annop.Author;
 import com.parse.ParseObject;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,9 +1,6 @@
-package com.myluckyday.android.test.compiler;
-
+package the.autarch.annotatedparseobject.compiler;
 
 import com.google.common.collect.Sets;
-import com.myluckyday.android.test.api.AnnotatedParseObject;
-import com.myluckyday.android.test.api.ParseKey;
 import com.parse.ParseClassName;
 import com.squareup.javapoet.AnnotationSpec;
 import com.squareup.javapoet.JavaFile;
@@ -27,6 +24,9 @@ import javax.lang.model.element.VariableElement;
 import javax.lang.model.type.DeclaredType;
 import javax.lang.model.type.MirroredTypeException;
 import javax.lang.model.util.Elements;
+
+import the.autarch.annotatedparseobject.api.AnnotatedParseObject;
+import the.autarch.annotatedparseobject.api.ParseKey;
 
 /**
  * Created by jpierce on 30/08/16.

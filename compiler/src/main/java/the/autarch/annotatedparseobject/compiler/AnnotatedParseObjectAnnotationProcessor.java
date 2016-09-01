@@ -1,9 +1,7 @@
-package com.myluckyday.android.test.compiler;
+package the.autarch.annotatedparseobject.compiler;
 
 import com.google.auto.service.AutoService;
 import com.google.common.collect.Sets;
-import com.myluckyday.android.test.api.AnnotatedParseObject;
-import com.myluckyday.android.test.api.ParseKey;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -24,6 +22,9 @@ import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.Diagnostic;
+
+import the.autarch.annotatedparseobject.api.AnnotatedParseObject;
+import the.autarch.annotatedparseobject.api.ParseKey;
 
 @AutoService(Processor.class)
 public class AnnotatedParseObjectAnnotationProcessor extends AbstractProcessor {

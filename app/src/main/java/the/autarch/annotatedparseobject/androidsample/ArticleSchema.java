@@ -1,9 +1,9 @@
 package the.autarch.annotatedparseobject.androidsample;
 
-import com.myluckyday.android.test.annop.Author;
-import com.myluckyday.android.test.api.AnnotatedParseObject;
-import com.myluckyday.android.test.api.ParseKey;
 import com.parse.ParseObject;
+
+import the.autarch.annotatedparseobject.api.AnnotatedParseObject;
+import the.autarch.annotatedparseobject.api.ParseKey;
 
 /**
  * Created by jpierce on 30/08/16.
