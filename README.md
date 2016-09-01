@@ -104,7 +104,8 @@ public class ArticleSchema {
 Schema object must follow format Object**Schema**.  So Article**Schema** generates class **Article**, Author**Schema** generates class **Author**, etc.
 
 Properties are created by adding get/set to capitalized field name, so **title** becomes getTitle/setTitle.
-If for whatever reason you need want to change the property name you can do so using `@ParseKey`:
+The Parse key name (column name in Parse database) is assumed to be the same as the field name (case sensitive).
+If this is not the case you can specify it with `@ParseKey`:
   
 ```
 @AnnotatedParseObject(
@@ -140,4 +141,4 @@ public class Article extends ParseObject {
   ...
   
 }
-```
+``` 
