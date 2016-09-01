@@ -6,7 +6,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.3'
-        classpath 'com.novoda:bintray-release:0.2.10'
+        classpath 'com.novoda:bintray-release:0.3.5'
     }
 }
 
@@ -22,7 +22,7 @@ task clean(type: Delete) {
 
 ext {
     groupId = 'the.autarch.annotatedparseobject'
-    publishVersion = '0.1'
+    publishVersion = '0.2'
     description = 'Annotation processor that generates ParseObject subclasses from schema objects'
     website = 'https://github.com/d370urn3ur/AnnotatedParseObject'
     licences = ['Unlicense']

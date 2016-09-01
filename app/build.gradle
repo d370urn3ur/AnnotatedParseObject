@@ -29,21 +29,21 @@ android {
     }
 }
 
-//repositories {
-//    maven {
-//        url 'http://bintray.com/d370urn3ur/maven/annotatedparseobject'
-//    }
-//}
+repositories {
+    maven {
+        url 'https://dl.bintray.com/d370urn3ur/maven'
+    }
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.0'
 
-    compile project(':api')
-    apt project(':compiler')
-    compile 'com.parse:parse-android:1.13.1'
+//    compile project(':api')
+//    apt project(':compiler')
+    compile 'the.autarch.annotatedparseobject:api:0.1'
+    apt 'the.autarch.annotatedparseobject:compiler:0.1'
 
-//    compile 'the.autarch.annotatedparseobject:api:0.1'
-//    apt 'the.autarch.annotatedparseobject:compiler:0.1'
+    compile 'com.parse:parse-android:1.13.1'
 }
