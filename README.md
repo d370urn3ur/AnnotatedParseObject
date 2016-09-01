@@ -101,7 +101,7 @@ public class ArticleSchema {
 
 #### Notes
 
-Schema object must follow format Object**Schema**.  So Article**Schema** generates class **Article**, Author**Schema** generates class **Author**, etc.
+Schema objects must follow the format _Object_**Schema**.  So Article**Schema** generates class **Article**, Author**Schema** generates class **Author**, etc.
 
 Properties are created by adding get/set to capitalized field name, so **title** becomes getTitle/setTitle.
 The Parse key name (column name in Parse database) is assumed to be the same as the field name (case sensitive).
