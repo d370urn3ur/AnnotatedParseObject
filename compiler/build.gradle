@@ -13,10 +13,12 @@ dependencies {
 }
 
 publish {
-    artifactId = 'compiler'
-    groupId = rootProject.groupId
     uploadName = 'annotatedparseobject-compiler'
+
+    groupId = rootProject.groupId
+    artifactId = 'annotatedparseobject-compiler'
     publishVersion = rootProject.publishVersion
+
     description = rootProject.description
     website = rootProject.website
     licences = rootProject.licences

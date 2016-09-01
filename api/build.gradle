@@ -5,10 +5,13 @@ sourceCompatibility = JavaVersion.VERSION_1_7
 targetCompatibility = JavaVersion.VERSION_1_7
 
 publish {
-    artifactId = 'api'
-    groupId = rootProject.groupId
+
     uploadName = 'annotatedparseobject'
+
+    groupId = rootProject.groupId
+    artifactId = 'annotatedparseobject'
     publishVersion = rootProject.publishVersion
+
     description = rootProject.description
     website = rootProject.website
     licences = rootProject.licences
