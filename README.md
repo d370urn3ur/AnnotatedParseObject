@@ -1,6 +1,6 @@
 # AnnotatedParseObject
 
-Annotation processor that generates ParseObject subclasses from a schema object.  Tested on Android.  Currently in alpha, **USE AT YOUR OWN RISK!!!**
+Annotation processor that generates ParseObject subclasses from schema objects.  Tested on Android.  Currently in alpha, **USE AT YOUR OWN RISK!!!**
 
 ## Installation
 
