@@ -1,5 +1,29 @@
 apply plugin: 'java'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'annotatedparseobject'
+
+    publishedGroupId = 'the.autarch.annotatedparseobject'
+    libraryName = 'AnnotatedParseObject'
+    artifact = 'annotatedparseobject'
+
+    libraryDescription = 'Annotation processor to generate ParseObject subclasses'
+
+    siteUrl = 'https://github.com/d370urn3ur/AnnotatedParseObject'
+    gitUrl = 'https://github.com/d370urn3ur/AnnotatedParseObject.git'
+
+    libraryVersion = '0.1.0'
+
+    developerId = 'd370urn3ur'
+    developerName = 'Joshua Pierce'
+    developerEmail = 'nocall@example.com'
+
+//    licenseName = 'MIT'
+//    licenseUrl = ''
+//    allLicenses = []
+}
+
 sourceCompatibility = JavaVersion.VERSION_1_7
 targetCompatibility = JavaVersion.VERSION_1_7
 
