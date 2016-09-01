@@ -83,7 +83,7 @@ public class Article extends ParseObject {
 }
 ```
 
-Now we can define annotations on our fields so that AnnotatedParseObject can write this for us:
+AnnotatedParseObject can generate this for us:
 
 ```
 @AnnotatedParseObject(
