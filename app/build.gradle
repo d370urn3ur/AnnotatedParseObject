@@ -40,8 +40,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.0'
 
-    compile project(':api')
-    apt project(':compiler')
+    compile project(':annotatedparseobject')
+    apt project(':annotatedparseobject-compiler')
 //    compile 'the.autarch.annotatedparseobject:api:0.1'
 //    apt 'the.autarch.annotatedparseobject:compiler:0.1'
 

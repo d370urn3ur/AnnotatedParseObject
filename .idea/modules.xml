@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Annop.iml" filepath="$PROJECT_DIR$/Annop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnnotatedParseObject.iml" filepath="$PROJECT_DIR$/AnnotatedParseObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotatedparseobject/api.iml" filepath="$PROJECT_DIR$/annotatedparseobject/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotatedparseobject-compiler/compiler.iml" filepath="$PROJECT_DIR$/annotatedparseobject-compiler/compiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/compiler/compiler.iml" filepath="$PROJECT_DIR$/compiler/compiler.iml" />
     </modules>
   </component>
 </project>
