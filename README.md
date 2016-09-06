@@ -2,43 +2,6 @@
 
 Annotation processor that generates ParseObject subclasses from schema objects.  Tested on Android.  Currently in alpha, **USE AT YOUR OWN RISK!!!**
 
-## Installation
-
-_Required: apt, Parse Android SDK_
-
-### 1) Add apt
-
-In your app module's build.gradle add the following buildscript and apply the plugin:
- 
-```java
-buildscript {
- repositories {
-     jcenter()
- }
- dependencies {
-     classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
- }
-}
-
-apply plugin: 'com.neenbedankt.android-apt'
-```
- 
-### 2) Add AnnotatedParseObject as dependency:
-
-Add dependencies:
-
-```
-dependencies {
-
-    ...
-
-    compile 'the.autarch:annotatedparseobject:0.3'
-    apt 'the.autarch:annotatedparseobject-compiler:0.3'
-    
-    compile 'com.parse:parse-android:1.13.1'
-}
-```
-
 ## Usage
 
 AnnotatedParseObject works by processing schemas.  Schemas are annotated POJOs that describe the schema of your ParseObject subclasses.
@@ -132,3 +95,40 @@ public class Article extends ParseObject {
   
 }
 ``` 
+
+## Installation
+
+_Required: apt, Parse Android SDK_
+
+### 1) Add apt
+
+In your app module's build.gradle add the following buildscript and apply the plugin:
+ 
+```java
+buildscript {
+ repositories {
+     jcenter()
+ }
+ dependencies {
+     classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+ }
+}
+
+apply plugin: 'com.neenbedankt.android-apt'
+```
+ 
+### 2) Add AnnotatedParseObject as dependency:
+
+Add dependencies:
+
+```
+dependencies {
+
+    ...
+
+    compile 'the.autarch:annotatedparseobject:0.3'
+    apt 'the.autarch:annotatedparseobject-compiler:0.3'
+    
+    compile 'com.parse:parse-android:1.13.1'
+}
+```
