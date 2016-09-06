@@ -5,9 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AnnotatedParseObject.iml" filepath="$PROJECT_DIR$/AnnotatedParseObject.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotatedparseobject/annotatedparseobject.iml" filepath="$PROJECT_DIR$/annotatedparseobject/annotatedparseobject.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotatedparseobject-compiler/annotatedparseobject-compiler.iml" filepath="$PROJECT_DIR$/annotatedparseobject-compiler/annotatedparseobject-compiler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/annotatedparseobject/api.iml" filepath="$PROJECT_DIR$/annotatedparseobject/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/annotatedparseobject-compiler/compiler.iml" filepath="$PROJECT_DIR$/annotatedparseobject-compiler/compiler.iml" />
     </modules>
   </component>
 </project>

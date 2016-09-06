@@ -25,16 +25,6 @@ apply plugin: 'com.neenbedankt.android-apt'
  
 ### 2) Add AnnotatedParseObject as dependency:
 
-Add the bintray user repository (future releases will be published on jcenter):
-
-```
-repositories {
-    maven {
-        url 'https://dl.bintray.com/d370urn3ur/maven'
-    }
-}
-```
-
 Add dependencies:
 
 ```
